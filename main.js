@@ -62,7 +62,7 @@ misc.forEach(miscs => {
         else if (e.target.classList.contains('square')){
             if (input.value != ''){
             const square = Number(input.value) * Number(input.value);
-            input.value = square; }
+            input.value = square.toPrecision(5); }
         } 
         else if (e.target.classList.contains('sqrt')){
             if (input.value != ''){
